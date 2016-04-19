@@ -1,6 +1,7 @@
 ﻿header {
 	width:100%;
 	background-color:pink;
+	border:1px solid pink;
 }
 section {
 	float:left;
@@ -8,7 +9,7 @@ section {
 	background-color:#FF77FF;
 }
 nav {
-	top:0;
+	
 	right:0;
 	display:block;
 	float:right;
@@ -23,6 +24,7 @@ footer {
 	width:100%;
 	color:white;
 	background-color: black;
+	border:1px solid black;
 }
 .clearfix::after {
 	content:".";
